@@ -46,3 +46,15 @@ section nav ul li a.action{
 section nav ul li a:hover{
     color: #facc22;
 }
+section nav .login a{
+    color: #000;
+    text-decoration: none;
+    border: 2px solid #facc22;
+    border-radius: 20px;
+    padding: 7px 20px;
+    transition: 0.3s;
+}
+section nav .login a:hover{
+    background: #facc22;
+    color: #fff;
+}
