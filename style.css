@@ -110,3 +110,22 @@ section .main .main_text .btn{
     left: 5%;
     transition: 0.3s;
 }
+section .main .main_text .btn:hover{
+    color: #fff;
+}
+section .main .main_text .btn::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #facc22;
+    z-index: -1;
+    transition: 0.3s;
+}
+section .main .main_text .btn:hover:before{
+    top: unset;
+    width: 100%;
+    bottom: 0;
+}
