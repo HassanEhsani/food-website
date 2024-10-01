@@ -97,10 +97,12 @@ section .main .main_text p {
     line-height: 23px;
     text-align: justify;
 }
-section .main .main_text .btn i{
+
+section .main .main_text .btn i {
     margin-right: 8px;
 }
-section .main .main_text .btn{
+
+section .main .main_text .btn {
     color: #000;
     text-decoration: none;
     border: 2px solid #facc22;
@@ -110,10 +112,12 @@ section .main .main_text .btn{
     left: 5%;
     transition: 0.3s;
 }
-section .main .main_text .btn:hover{
+
+section .main .main_text .btn:hover {
     color: #fff;
 }
-section .main .main_text .btn::before{
+
+section .main .main_text .btn::before {
     content: '';
     position: absolute;
     top: 0;
@@ -124,8 +128,28 @@ section .main .main_text .btn::before{
     z-index: -1;
     transition: 0.3s;
 }
-section .main .main_text .btn:hover:before{
+
+section .main .main_text .btn:hover:before {
     top: unset;
     width: 100%;
     bottom: 0;
+}
+
+section .main .main_image img {
+    width: 650px;
+    animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1.1);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.1);
+    }
 }
