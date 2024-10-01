@@ -16,5 +16,33 @@ section nav{
     position: fixed;
     right: 0;
     left: 0;
-    z-index: 100;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+section nav .logo img{
+    width: 120px;
+    margin: 20px 0;
+    position: relative;
+    left: -45%;
+    cursor: pointer;
+}
+
+section nav ul{
+    list-style: none;
+}
+section nav ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+section nav ul li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+section nav ul li a.action{
+    color: #facc22;
+}
+section nav ul li a:hover{
+    color: #facc22;
 }
