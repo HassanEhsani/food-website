@@ -169,7 +169,17 @@ section .main .main_image img {
     color: #facc22;
     margin-right: 15px;
 }
-
+.about .about_main .about_text h3{
+    position: relative;
+    bottom: 10px;
+    font-size: 25px;
+}
+.about .about_main .about_text p{
+    width: 650px;
+    text-align: justify;
+    line-height: 23px;
+    margin-top: 20px;
+}
 
 
 @keyframes animate {
